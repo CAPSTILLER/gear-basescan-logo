@@ -11,7 +11,8 @@ Static GEAR token logo files for Capstiller. Served at https://svg.gearup.wtf (G
 
 The `public/` folder mirrors the root so either can be served.
 
-## Token logo sets (added Oct 2026)
-- `gear-logo-tight-32x32.svg`, `-512x512.png`, `-256x256.png` - tight-crop GEAR filling the square (primary, BaseScan SVG is a true 32x32 viewBox)
-- `gear-logo-grid-*` - same art as a 2x2 grid, easier to read at 32px
-- `gear-logo-gearG-*` - round white icon with a gear-shaped G (fallback)
+## Token logo sets
+Built only from Cap's own pixel art (64x16 art pixels, nearest-neighbor scaling, no smoothing).
+- `gear-logo-tight-32x32.svg/.png`, `-512x512.png`, `-256x256.png` - tight crop (32px files have a one-tile black border)
+- `gear-logo-grid-*` - same art as a 2x2 grid (32px files have a one-tile black border)
+- `gear-logo-cutout.png` - footer logo, 512x128, black cropped out
